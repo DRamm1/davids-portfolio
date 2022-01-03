@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  padding: 20px 35;
+  background-color: #6facbfe5;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+}
+
+header h1 {
+  margin: 15px;
+}
+
+header a {
+  color: #fc5c74;
+  text-decoration: none;
+}
+
+header nav {
+  margin: 25px;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: bold;
+  font-size: 1.55vw;
+}
+
+.hero {
+ display: flex;
+ flex-wrap: wrap;
+ position: absolute;
+ width: 1080px;
+ height: 106px
+}
+
+main {
+  background: conic-gradient(
+    from 225.28deg at 99.31% 0.63%,
+    #91e0a8 0deg,
+    #6facbf 360deg
+  );
+}
+
+.contents h1 {
+  color: #fc5c74;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 55px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about h1 {
+  flex-basis: 100%;
+  text-align: center;
+  margin: 25px 0 30px 0;
+}
+
+.about img {
+  max-width: 15ch;
+  max-height: 15ch;
+  margin-right: 15px;
+}
+
+.about h2 span{
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.works {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  text-align: center;
+}
+
+.works h1 {
+  flex-basis: 100%;
+  margin: 70px 0 30px 0;
+}
+
+.works h2 {
+  font-weight: normal;
+  flex-basis: 100%;
+  font-size: 25px;
+}
+
+.works img {
+  max-width: 15ch;
+  max-height: 15ch;
+  margin: 45px 20px 90px 20px;
+}
+
+.works h3 {
+  text-align: center;
+  flex-basis: 100%;
+  margin-bottom: 45px;
+}
+
+.works h3 span {
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+}
+
+.content {
+  transform-origin: bottom;
+}
+
+.content p a {
+  text-decoration: none;
+  color: #91e0a8;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container .hexagon {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  margin: 50px 20px 70px;
+}
+
+.container .hexagon::before {
+  content: "";
+  position: absolute;
+  bottom: -70px;
+  width: 100%;
+  height: 60px;
+  background: radial-gradient(rgba(252, 92, 116, 0.5), transparent, transparent);
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.container .hexagon:hover::before {
+  opacity: 0, 8;
+  transform: scale(0.8);
+}
+
+.container .hexagon .shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fc5c74;
+  clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+  transition: 0.5s;
+}
+
+.container .hexagon:hover .shape {
+  transform: translateY(-30px);
+}
+
+.container .hexagon .shape img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container .hexagon .shape .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(45deg, #fc5c74, rgba(252, 92, 116, 1));
+  color: #fff;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.container .hexagon:hover .shape .content {
+  opacity: 1;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 5px 0 10px 0;
+  line-height: 3;
+}
