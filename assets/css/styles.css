@@ -55,6 +55,13 @@ header nav ul li a {
   font-size: 1.55vw;
 }
 
+header nav ul li a:hover {
+  background-color: #91e0a8;
+  color: #6facbf;
+  border-radius: 15px;
+  text-shadow: none;
+}
+
 .hero {
  display: flex;
  flex-wrap: wrap;
