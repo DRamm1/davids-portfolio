@@ -1,19 +1,21 @@
+/* This @Import just imports the listed fonts */
+
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 
-* {
+* { /* Universal selector styling (default style for all) */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
 }
 
-body {
+body { /* Body section HTML Styling Includes all but head section and contatined within the HTML type as a whole*/
   justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
 
-header {
+header { /* Header specification top bar with my name and nav link*/
   padding: 20px 35;
   background-color: #6facbfe5;
   display: flex;
@@ -28,20 +30,30 @@ header {
   background-position: 80%;
 }
 
-header h1 {
+header h1 { /* specifically the margin for the heading 1 in the header in this case it's my name */
   margin: 15px;
 }
 
-header a {
+header a { /* Theese are the styles for the links within the heading */
   color: #fc5c74;
   text-decoration: none;
+  margin: 0 30px;
+  font-weight: bold;
+  font-size: 1.55vw;
 }
 
-header nav {
+header a:hover {/* Styles the above links to be highlighted with the specifications listed below */
+  background-color: #91e0a8;
+  color: #6facbf;
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+header nav { /* This is specifically for the navigation margin within the heading like about, contact me, etc... */
   margin: 25px;
 }
 
-header nav ul {
+header nav ul { /* similar to above but more specific to the ul or unordered list items */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -49,20 +61,7 @@ header nav ul {
   list-style: none;
 }
 
-header nav ul li a {
-  margin: 0 30px;
-  font-weight: bold;
-  font-size: 1.55vw;
-}
-
-header nav ul li a:hover {
-  background-color: #91e0a8;
-  color: #6facbf;
-  border-radius: 15px;
-  text-shadow: none;
-}
-
-.hero {
+.hero { /* The styles for the header image right below the navigation bar */
  display: flex;
  flex-wrap: wrap;
  position: absolute;
@@ -70,7 +69,7 @@ header nav ul li a:hover {
  height: 106px
 }
 
-main {
+main { /* This is the main section that holds the majority of the content sections and the styles in this case set the color of the overall page minus the header and hero image I found out about gradinats using figma and explored at this link: https://www.w3schools.com/css/css3_gradients_conic.asp */
   background: conic-gradient(
     from 225.28deg at 99.31% 0.63%,
     #91e0a8 0deg,
@@ -78,7 +77,7 @@ main {
   );
 }
 
-.contents h1 {
+.contents h1 { /* This is the heading style for all h1 sections. This includes About Me, Work and Projects and Contatct Me */
   color: #fc5c74;
   text-decoration: underline;
   font-weight: bold;
@@ -86,74 +85,65 @@ main {
   line-height: 55px;
 }
 
-.about {
+.about { /* Specifies the about section of the portfolio page including headings, images and paragraphs */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.about h1 {
+.about h1 { /* Specifies solely the about me h1 heading*/
   flex-basis: 100%;
   text-align: center;
   margin: 25px 0 30px 0;
 }
 
-.about img {
+.about img { /* Specifies solely the image within the about me section*/
   max-width: 15ch;
   max-height: 15ch;
   margin-right: 15px;
 }
 
-.about h2 span {
+.about h2 span { /* Specifically styles the span section within the h2 heading as it required different font sizing and weight to the general h2 heading*/
   font-size: 18px;
   font-weight: normal;
 }
 
-.works {
+.works { /* Similar to the about section and styles all code within the works class including, h1 ,h2, images, h3 and the span within h3 */
   display: flex;
   flex-wrap: wrap;
   justify-content:center;
   text-align: center;
 }
 
-.works h1 {
+.works h1 { /* Specifies solely the works class h1 heading*/
   flex-basis: 100%;
   margin: 70px 0 30px 0;
 }
 
-.works h2 {
+.works h2 { /* Specifies only the works class h1 heading*/
   font-weight: normal;
   flex-basis: 100%;
   font-size: 25px;
 }
 
-.works img {
+.works img { /* Specifies the works class images*/
   max-width: 15ch;
   max-height: 15ch;
   margin: 45px 20px 90px 20px;
 }
 
-.works h3 {
+.works h3 { /* Specifies the works class h3 heading*/
   text-align: center;
   flex-basis: 100%;
   margin-bottom: 45px;
 }
 
-.works h3 span {
+.works h3 span { /* Styles the span section within the h3 section within the works class*/
   border-bottom: 1px solid;
   border-top: 1px solid;
 }
 
-.content {
-  transform-origin: bottom;
-}
-
-.content p a {
-  text-decoration: none;
-  color: #91e0a8;
-}
-
-.container {
+.container {  /* Styles the content within this section this includes the classes hexagon, shape, etc... I took inspiration for hexagons online and utilized this page to help https://jtauber.github.io/articles/css-hexagon.html*/
   position: relative;
   display: flex;
   justify-content: center;
@@ -161,14 +151,14 @@ main {
   flex-wrap: wrap;
 }
 
-.container .hexagon {
+.container .hexagon { /* Styles the hexagon section that is within the container section */
   position: relative;
   width: 350px;
   height: 350px;
   margin: 50px 20px 70px;
 }
 
-.container .hexagon::before {
+.container .hexagon::before { /* Defines how the hexagon class will function as a pseudo-element within the container class. */
   content: "";
   position: absolute;
   bottom: -70px;
@@ -176,15 +166,15 @@ main {
   height: 60px;
   background: radial-gradient(rgba(252, 92, 116, 0.5), transparent, transparent);
   border-radius: 50%;
-  transition: 0.5s;
+  transition: 0.45s;
 }
 
-.container .hexagon:hover::before {
+.container .hexagon:hover::before { /* Specifies the funtionality prior to being hovered upon which is also a pseudo-element */
   opacity: 0, 8;
   transform: scale(0.8);
 }
 
-.container .hexagon .shape {
+.container .hexagon .shape { /* Specifies the shape dimentions of the in this case the shape class which is a hexagon that dimentions were created on https://bennettfeely.com/clippy/ */
   position: absolute;
   top: 0;
   left: 0;
@@ -192,14 +182,14 @@ main {
   height: 100%;
   background-color: #fc5c74;
   clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
-  transition: 0.5s;
+  transition: 0.45s;
 }
 
-.container .hexagon:hover .shape {
+.container .hexagon:hover .shape { /* Defines the pseudo-element of hover and how it will function of the shape within the hexagon that is being hovered over within the container as a whole */
   transform: translateY(-30px);
 }
 
-.container .hexagon .shape img {
+.container .hexagon .shape img { /* Styles the img within the shape class within the hexagon class within the container */
   position: absolute;
   top: 0;
   left: 0;
@@ -208,7 +198,7 @@ main {
   object-fit: cover;
 }
 
-.container .hexagon .shape .content {
+.container .hexagon .shape .content { /* Exactly the above img but instead it is styling the content within the shape class within the hexagon class within the container */
   position: absolute;
   top: 0;
   left: 0;
@@ -222,14 +212,23 @@ main {
   background: linear-gradient(45deg, #fc5c74, rgba(252, 92, 116, 1));
   color: #fff;
   opacity: 0;
-  transition: 0.5s;
+  transition: 0.45s;
 }
 
-.container .hexagon:hover .shape .content {
+.container .hexagon:hover .shape .content { /* Defines the pseudo-element of hover and how it will function of the content within the shape within the hexagon that is being hovered over within the container as a whole */
   opacity: 1;
 }
 
-.contact {
+.content { /* Styles solely the content section and all within */
+  transform-origin: bottom;
+}
+
+.content p a { /* Specifically styles the links within paragraphs in the content section */
+  text-decoration: none;
+  color: #91e0a8;
+}
+
+.contact { /* Specifies the contact section of the portfolio page including headings, images and links */
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -237,7 +236,7 @@ main {
   line-height: 3;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) { /* this media section helps with the responsiveness and applies the folowing to overide the above styles based on screen size in this case all of the below will change if the sceen size is smaller then 768px */
   .about img {
     margin-bottom: 20px;
   }
@@ -266,7 +265,7 @@ main {
   }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 575px) { /* this media section helps with the responsiveness and applies the folowing to overide the above styles based on screen size in this case all of the below will change if the sceen size is smaller then 575px */
   .about img {
     margin-bottom: 20px;
   }
