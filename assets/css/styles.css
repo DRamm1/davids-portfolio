@@ -26,13 +26,6 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-position: 80%;
 }
 
 header h1 {
