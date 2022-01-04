@@ -66,9 +66,6 @@ header nav ul li a:hover { /* Styles the above links to be highlighted with the 
 .hero { /* The styles for the header image right below the navigation bar */
  display: flex;
  flex-wrap: wrap;
- position: absolute;
- width: 1080px;
- height: 106px
 }
 
 main { /* This is the main section that holds the majority of the content sections and the styles in this case set the color of the overall page minus the header and hero image I found out about gradinats using figma and explored at this link: https://www.w3schools.com/css/css3_gradients_conic.asp */
@@ -236,6 +233,9 @@ main { /* This is the main section that holds the majority of the content sectio
   flex-direction: column;
   margin: 5px 0 10px 0;
   line-height: 3;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) { /* this media section helps with the responsiveness and applies the folowing to overide the above styles based on screen size in this case all of the below will change if the sceen size is smaller then 768px */
