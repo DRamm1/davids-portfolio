@@ -270,19 +270,12 @@ main {
   color: black;
   font-size: 18px;
   font-weight: bold;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 768px) {
   /* this media section helps with the responsiveness and applies the folowing to overide the above styles based on screen size in this case all of the below will change if the sceen size is smaller then 768px */
-  .about img {
-    margin-bottom: 20px;
-  }
-  .works img {
-    margin: 20px;
-  }
-  .works h3 {
-    margin-top: 20px;
-  }
+
   header {
     padding-bottom: 0px;
     justify-content: center;
@@ -302,20 +295,20 @@ main {
   }
   .about h2 {
     text-align: center;
+  }
+  .about img {
+    margin-bottom: 20px;
+  }
+  .works img {
+    margin: 20px;
+  }
+  .works h3 {
+    margin-top: 20px;
   }
 }
 
 @media screen and (max-width: 575px) {
   /* this media section helps with the responsiveness and applies the folowing to overide the above styles based on screen size in this case all of the below will change if the sceen size is smaller then 575px */
-  .about img {
-    margin-bottom: 20px;
-  }
-  .works img {
-    margin: 20px;
-  }
-  .works h3 {
-    margin-top: 20px;
-  }
   header {
     padding-bottom: 0px;
     justify-content: center;
@@ -335,5 +328,14 @@ main {
   }
   .about h2 {
     text-align: center;
+  }
+  .about img {
+    margin-bottom: 20px;
+  }
+  .works img {
+    margin: 20px;
+  }
+  .works h3 {
+    margin-top: 20px;
   }
 }
