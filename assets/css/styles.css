@@ -107,6 +107,7 @@ main {
   margin-right: 15px;
 }
 
+
 .about h2 span {
   /* Specifically styles the span section within the h2 heading as it required different font sizing and weight to the general h2 heading*/
   font-size: 18px;
@@ -261,6 +262,14 @@ main {
   flex-direction: column;
   line-height: 3;
   text-align: center;
+  flex-wrap: wrap;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
@@ -291,6 +300,9 @@ main {
   header nav ul li a {
     font-size: 20px;
   }
+  .about h2 {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -320,5 +332,8 @@ main {
   }
   header nav ul li a {
     font-size: 20px;
+  }
+  .about h2 {
+    text-align: center;
   }
 }
