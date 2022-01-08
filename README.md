@@ -16,7 +16,7 @@ Live URL: https://dramm1.github.io/my-portfolio/
 - WHEN I resize the page or view the site on various screens and devices
 - THEN I am presented with a responsive layout that adapts to my viewport
 
-# Given the above My page works as follows.
+# Given the above My page works as follows:
 ------------
 - As a sample of previouse work I have created a documents folder within my assests folder. I have then gone ahead and linked it directly to my portfolio for visability. 
 - To keep the page simple I decided to not include an additional page for the resume but rather a section within my navigation element to direct users to robust professional appearing resume. 
@@ -39,7 +39,7 @@ Navigate the website via the navigation options in the top right or by scrolling
 # Code Style:
 To help understand sections better I like to leave a space bettween two obvious, or what I feel to be important sections as a way to easily and visually find the header, body, footer etc... 
 
-# Images  
+# Images:
  All Images Located in assets/images:
 
  --------------------
