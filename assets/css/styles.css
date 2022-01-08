@@ -23,20 +23,21 @@ header {
   /* Header specification top bar with my name and nav link*/
   padding: 20px 35;
   background-color: #6facbfe5;
+  opacity: 95%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-header h1 {
-  /* specifically the margin for the heading 1 in the header in this case it's my name */
-  margin: 15px;
+header h1 { /* specifically the margin and text decoration for the heading 1 */
+  margin-top: 15px;
+  margin-left: 5px;
 }
 
-header a {
-  /* Theese are the styles for the links within the heading */
-  color: #fc5c74;
+header h1 a {  /* specifically color for the heading 1 link. In this case it's my name */
+  color: black;
   text-decoration: none;
+
 }
 
 header nav {
@@ -58,6 +59,8 @@ header nav ul li a {
   margin: 0 30px;
   font-weight: bold;
   font-size: 1.55vw;
+  color: #fc5c74;
+  text-decoration: none;
 }
 
 header nav ul li a:hover {
@@ -155,28 +158,27 @@ main {
   border-top: 1px solid;
 }
 
-.container {
-  /* Styles the content within this section this includes the classes hexagon, shape, etc... I took inspiration for hexagons online and utilized this page to help https://jtauber.github.io/articles/css-hexagon.html*/
+.hex-container {
+  /* Styles the content within this section this includes the classes hex, hex-shape, etc... I took inspiration for hexs online and utilized this page to help https://jtauber.github.io/articles/css-hex.html*/
   position: relative;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-.container .hexagon {
-  /* Styles the hexagon section that is within the container section */
+.hex-container .hex {
+  /* Styles the hex section that is within the hex-container section */
   position: relative;
-  width: 350px;
-  height: 350px;
-  margin: 50px 20px 70px;
+  margin: 48px 28px 52px 8px;
+  width: 345px;
+  height: 345px;
 }
 
-.container .hexagon::before {
-  /* Defines how the hexagon class will function as a pseudo-element within the container class. */
-  content: "";
+.hex-container .hex::before {
+  /* Defines how the hex class will function as a pseudo-element within the hex-container class. */
   position: absolute;
-  bottom: -70px;
+  bottom: -68px;
   width: 100%;
   height: 60px;
   background: radial-gradient(
@@ -185,39 +187,41 @@ main {
     transparent
   );
   border-radius: 50%;
-  transition: 0.5s;
+  transition: 0.45s;
 }
 
-.container .hexagon:hover::before {
+.hex-container .hex:hover::before {
   /* Specifies the funtionality prior to being hovered upon which is also a pseudo-element */
-  opacity: 0, 8;
+  opacity: 0, 7.5;
   transform: scale(0.8);
 }
 
-.container .hexagon .shape {
-  /* Specifies the shape dimentions of the in this case the shape class which is a hexagon that dimentions were created on https://bennettfeely.com/clippy/ */
+.hex-container .hex .hex-shape {
+  /* Specifies the hex-shape dimentions of the in this case the hex-hex-shape class which is a hex that dimentions were created on https://bennettfeely.com/clippy/ */
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
+  top: 0;
+  left: 0;
   background-color: #fc5c74;
   clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
-  transition: 0.5s;
+  transition: 0.45s;
 }
 
-.container .hexagon:hover .shape {
-  /* Defines the pseudo-element of hover and how it will function of the shape within the hexagon that is being hovered over within the container as a whole */
-  transform: translateY(-30px);
+.hex-container .hex:hover .hex-shape {
+  /* Defines the pseudo-element of hover and how it will function of the hex-shape within the hex that is being hovered over within the hex-container as a whole */
+  transform: translateY(-32px);
+  width: 102%;
+  height: 102%;
 }
 
-.container .hexagon .shape img {
-  /* Styles the img within the shape class within the hexagon class within the container */
+.hex-container .hex .hex-shape img {
+  /* Styles the img within the hex-shape class within the hex class within the hex-container */
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
+  top: 0;
+  left: 0;
   object-fit: cover;
 }
 
@@ -232,8 +236,8 @@ main {
   color: #91e0a8;
 }
 
-.container .hexagon .shape .content {
-  /* Exactly the above img but instead it is styling the content within the shape class within the hexagon class within the container */
+.hex-container .hex .hex-shape .content {
+  /* Exactly the above img but instead it is styling the content within the hex-shape class within the hex class within the hex-container */
   position: absolute;
   top: 0;
   left: 0;
@@ -247,11 +251,11 @@ main {
   background: linear-gradient(45deg, #fc5c74, rgba(252, 92, 116, 1));
   color: #fff;
   opacity: 0;
-  transition: 0.5s;
+  transition: 0.45s;
 }
 
-.container .hexagon:hover .shape .content {
-  /* Defines the pseudo-element of hover and how it will function of the content within the shape within the hexagon that is being hovered over within the container as a whole */
+.hex-container .hex:hover .hex-shape .content {
+  /* Defines the pseudo-element of hover and how it will function of the content within the hex-shape within the hex that is being hovered over within the hex-container as a whole */
   opacity: 1;
 }
 
@@ -299,6 +303,11 @@ main {
   .about img {
     margin-bottom: 20px;
   }
+
+  .hex-container .hex {
+    margin-bottom : 5px;
+  }
+
   .works img {
     margin: 20px;
   }
@@ -332,6 +341,11 @@ main {
   .about img {
     margin-bottom: 20px;
   }
+
+  .hex-container .hex {
+    margin-bottom : 5px;
+  }
+
   .works img {
     margin: 20px;
   }
