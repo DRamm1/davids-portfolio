@@ -26,6 +26,7 @@ Live URL: https://dramm1.github.io/my-portfolio/
 - (Once in my work section to meet the criteria of having a heading I decided to make the site visiter hover or click on my work images as an iteractive experiance and to keep my portfolio on their minds, as it should stand out as an implication of it being a bit more of an experiance then the average portfolio.)
 - As a feature, I met the critera of increasing image size  and included a change in positioning to the Y axis when the hexagon is hovered over or clicked on. The image then disapears and displayes a link to my work.
 - I then made sure all otehr instructions were working and funtional within my page. These being mobile responsiveness dependent on view port, semantic structuring, adding alt tags, having as little redundancies as appropriate. 
+- A wireframe is located in the "Additional Images and Information" section below.
 --------------------------------------
 # Things to Note:
 - I do not have original images for all my work as I thought it would be more appropriate to display more skills within my portfolio, so all images that are not mine will have a source below. 
@@ -39,7 +40,7 @@ Navigate the website via the navigation options in the top right or by scrolling
 To help understand sections better I like to leave a space bettween two obvious, or what I feel to be important sections as a way to easily and visually find the header, body, footer etc... 
 
 # Images  
- All Images Located in assets/images
+ All Images Located in assets/images:
 
  --------------------
  Main-Content Images:
@@ -67,9 +68,9 @@ Image Source:
 - Envelope:https://icons8.com/icons/set/envelope
 - LinkedIn:https://icons8.com/icons/set/linkedin
 ------------------
- Additional Images and Information
+ Additional Images and Information:
 - Wireframe/Original Website Image:
-https://gyazo.com/87602855d1d8de2e71d5e214326bf31d
+https://gyazo.com/e1656db0d572114d468fbbbf9f67c4c3
 - GitHub Link:
 https://github.com/DRamm1/my-portfolio
 
