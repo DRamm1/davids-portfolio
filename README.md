@@ -30,7 +30,7 @@ Live URL: https://dramm1.github.io/my-portfolio/
 --------------------------------------
 # Things to Note:
 - I do not have original images for all my work as I thought it would be more appropriate to display more skills within my portfolio, so all images that are not mine will have a source below. 
-- Some additional applictions displayed within the portfolio are from python command line and fairly basic. As I build up my portfolio those will be replaced with more ambitiouse projects but funtion as a current bookmark of skill and a placeholder for future work.
+- Some additional applictions displayed within the portfolio are from a python console and fairly basic. As I build up my portfolio those will be replaced with more ambitiouse projects but funtion as a current bookmark of skill and a placeholder for future work.
 - All contact infor ccan be clicked and if supported will pull up a promt to call, email or redirects to the given URL.
 
 # How To Use:
