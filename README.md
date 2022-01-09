@@ -45,28 +45,28 @@ To help understand sections better I like to leave a space bettween two obvious,
  --------------------
  Main-Content Images:
 - Python image: https://github.com/DRamm1/my-portfolio/blob/main/assets/images/python-image.png
-- CSS image:https://github.com/DRamm1/my-portfolio/blob/main/assets/images/css-image.png
-- HTML image:https://github.com/DRamm1/my-portfolio/blob/main/assets/images/html-image.pngobesity-vector-concept-obese-woman-standing-1919328974
-- Winner image:https://github.com/DRamm1/my-portfolio/blob/main/assets/images/brand.jpg
+- CSS image: https://github.com/DRamm1/my-portfolio/blob/main/assets/images/css-image.png
+- HTML image: https://github.com/DRamm1/my-portfolio/blob/main/assets/images/html-image.pngobesity-vector-concept-obese-woman-standing-1919328974
+- Winner image: https://github.com/DRamm1/my-portfolio/blob/main/assets/images/brand.jpg
 - Tips image: https://github.com/DRamm1/my-portfolio/blob/main/assets/images/Tips.jpgselective-focus-calculator-wooden-alphabet-word-2053559588
-- BMI image:https://github.com/DRamm1/my-portfolio/blob/main/assets/images/bmi.png
+- BMI image: https://github.com/DRamm1/my-portfolio/blob/main/assets/images/bmi.png
  --------------------
 Icon Images:
-- Phone:https://github.com/DRamm1/my-portfolio/blob/main/assets/images/phone.png
-- Envelope:https://github.com/DRamm1/my-portfolio/blob/main/assets/images/envelope.png
-- LinkedIn:https://github.com/DRamm1/my-portfolio/blob/main/assets/images/linkedin.png
+- Phone: https://github.com/DRamm1/my-portfolio/blob/main/assets/images/phone.png
+- Envelope: https://github.com/DRamm1/my-portfolio/blob/main/assets/images/envelope.png
+- LinkedIn: https://github.com/DRamm1/my-portfolio/blob/main/assets/images/linkedin.png
  --------------------
 Image Source: 
-- Python image:https://unsplash.com/photos/D9Zow2REm8U
-- CSS image:https://www.shutterstock.com/image-photo/css-cascading-style-sheets-acronym-write-1672892182
-- HTML image:https://www.shutterstock.com/image-vector/obesity-vector-concept-obese-woman-standing-1919328974
-- Winner image:https://www.shutterstock.com/image-photo/child-hand-picking-winner-glass-bowl-1487710058
+- Python image: https://unsplash.com/photos/D9Zow2REm8U
+- CSS image: https://www.shutterstock.com/image-photo/css-cascading-style-sheets-acronym-write-1672892182
+- HTML image: https://www.shutterstock.com/image-vector/obesity-vector-concept-obese-woman-standing-1919328974
+- Winner image: https://www.shutterstock.com/image-photo/child-hand-picking-winner-glass-bowl-1487710058
 - Tips image: https://www.shutterstock.com/image-photo/selective-focus-calculator-wooden-alphabet-word-2053559588
-- BMI image:https://www.shutterstock.com/image-vector/obesity-vector-concept-obese-woman-standing-1919328974
+- BMI image: https://www.shutterstock.com/image-vector/obesity-vector-concept-obese-woman-standing-1919328974
 
-- Phone:https://icons8.com/icons/set/phone
-- Envelope:https://icons8.com/icons/set/envelope
-- LinkedIn:https://icons8.com/icons/set/linkedin
+- Phone: https://icons8.com/icons/set/phone
+- Envelope: https://icons8.com/icons/set/envelope
+- LinkedIn: https://icons8.com/icons/set/linkedin
 ------------------
  Additional Images and Information:
 - Wireframe/Original Website Image:
