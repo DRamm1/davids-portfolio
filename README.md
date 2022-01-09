@@ -1,5 +1,5 @@
-# my-portfolio
-Live URL: https://dramm1.github.io/my-portfolio/
+# davids-portfolio
+Live URL: https://dramm1.github.io/davids-portfolio/
 
 # Acceptacne Criteria
 - GIVEN I need to sample a potential employee's previous work
@@ -44,17 +44,17 @@ To help understand sections better I like to leave a space bettween two obvious,
 
  --------------------
  Main-Content Images:
-- Python image: https://github.com/DRamm1/my-portfolio/blob/main/assets/images/python-image.png
-- CSS image:https://github.com/DRamm1/my-portfolio/blob/main/assets/images/css-image.png
-- HTML image:https://github.com/DRamm1/my-portfolio/blob/main/assets/images/html-image.pngobesity-vector-concept-obese-woman-standing-1919328974
-- Winner image:https://github.com/DRamm1/my-portfolio/blob/main/assets/images/brand.jpg
-- Tips image: https://github.com/DRamm1/my-portfolio/blob/main/assets/images/Tips.jpgselective-focus-calculator-wooden-alphabet-word-2053559588
-- BMI image:https://github.com/DRamm1/my-portfolio/blob/main/assets/images/bmi.png
+- Python image: https://github.com/DRamm1/davids-portfolio/blob/main/assets/images/python-image.png
+- CSS image:https://github.com/DRamm1/davids-portfolio/blob/main/assets/images/css-image.png
+- HTML image:https://github.com/DRamm1/davids-portfolio/blob/main/assets/images/html-image.pngobesity-vector-concept-obese-woman-standing-1919328974
+- Winner image:https://github.com/DRamm1/davids-portfolio/blob/main/assets/images/brand.jpg
+- Tips image: https://github.com/DRamm1/davids-portfolio/blob/main/assets/images/Tips.jpgselective-focus-calculator-wooden-alphabet-word-2053559588
+- BMI image:https://github.com/DRamm1/davids-portfolio/blob/main/assets/images/bmi.png
  --------------------
 Icon Images:
-- Phone:https://github.com/DRamm1/my-portfolio/blob/main/assets/images/phone.png
-- Envelope:https://github.com/DRamm1/my-portfolio/blob/main/assets/images/envelope.png
-- LinkedIn:https://github.com/DRamm1/my-portfolio/blob/main/assets/images/linkedin.png
+- Phone:https://github.com/DRamm1/davids-portfolio/blob/main/assets/images/phone.png
+- Envelope:https://github.com/DRamm1/davids-portfolio/blob/main/assets/images/envelope.png
+- LinkedIn:https://github.com/DRamm1/davids-portfolio/blob/main/assets/images/linkedin.png
  --------------------
 Image Source: 
 - Python image:https://unsplash.com/photos/D9Zow2REm8U
@@ -72,7 +72,7 @@ Image Source:
 - Wireframe/Original Website Image:
 https://gyazo.com/e1656db0d572114d468fbbbf9f67c4c3
 - GitHub Link:
-https://github.com/DRamm1/my-portfolio
+https://github.com/DRamm1/davids-portfolio
 
 - Framework:
  HTML and CSS
