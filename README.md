@@ -23,8 +23,8 @@ Live URL: https://dramm1.github.io/my-portfolio/
 - I have included a recent photo and my name is displayed visably in the main portion to the left of the header. This brings visability and instant recognition.
 - To account for section linking I have included a navigation bar on the right hand side of the header that not only links to addtional sections within the page but also changes based on click for mobile and hover on desktop devices.
 - As a section and navigational feature my contact information is also displayed within the page.
-- (Once in my work section to meet the criteria of having a heading I decided to make the site visiter hover or click on my work images as an iteractive experiance and to keep my portfolio on their minds, as it should stand out as an implication of it being a bit more of an experiance then the average portfolio.)
-- As a feature, I met the critera of increasing image size  and included a change in positioning to the Y axis when the hexagon is hovered over or clicked on. The image then disapears and displayes a link to my work.
+- I decided to let the site visiter hover or click on my work images as an iteractive experiance and to keep my portfolio on their minds. I also changed the header so it is displyed prior to hover to meet the proper criteria.
+- As a feature, I met the critera of increasing image size and included a change in positioning to the Y axis when the hexagon is hovered over or clicked on. The image then disapears and displayes a link to my work.
 - I then made sure all otehr instructions were working and funtional within my page. These being mobile responsiveness dependent on view port, semantic structuring, adding alt tags, having as little redundancies as appropriate. 
 - A wireframe is located in the "Additional Images and Information" section below.
 --------------------------------------

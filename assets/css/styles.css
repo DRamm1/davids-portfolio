@@ -203,7 +203,6 @@ main {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #fc5c74;
   clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
   transition: 0.45s;
 }
@@ -211,8 +210,8 @@ main {
 .hex-container .hex:hover .hex-shape {
   /* Defines the pseudo-element of hover and how it will function of the hex-shape within the hex that is being hovered over within the hex-container as a whole */
   transform: translateY(-32px);
-  width: 102%;
-  height: 102%;
+  width: 101%;
+  height: 101%;
 }
 
 .hex-container .hex .hex-shape img {
@@ -223,7 +222,15 @@ main {
   top: 0;
   left: 0;
   object-fit: cover;
+  opacity: 50%;
 }
+
+.hex-container .hex:hover .hex-shape img { /* Made the image here grow 5% to meet criterial and lowered it's opacity */
+  height: 105%;
+  width: 105%;
+  opacity: 25%
+}
+
 
 .content {
   /* Styles solely the content section and all within */
@@ -234,6 +241,13 @@ main {
   /* Specifically styles the links within paragraphs in the content section */
   text-decoration: none;
   color: #91e0a8;
+  opacity: 0;
+}
+
+
+.hex-container .hex:hover .hex-shape .content p a {
+  /* The purpse of this was to change the opacity of the above <a> tag content within the paragraph */
+  opacity: 1;
 }
 
 .hex-container .hex .hex-shape .content {
@@ -248,15 +262,15 @@ main {
   align-items: center;
   padding: 20px;
   text-align: center;
-  background: linear-gradient(45deg, #fc5c74, rgba(252, 92, 116, 1));
-  color: #fff;
-  opacity: 0;
+  color: black;
   transition: 0.45s;
 }
 
+
 .hex-container .hex:hover .hex-shape .content {
-  /* Defines the pseudo-element of hover and how it will function of the content within the hex-shape within the hex that is being hovered over within the hex-container as a whole */
-  opacity: 1;
+  /* Defines the pseudo-element of hover and how it will function for the content within the hex-shape within the hex that is being hovered over within the hex-container as a whole */
+  background: linear-gradient(45deg, #fc5c74, rgba(252, 92, 116, .5));
+  color: #fff;
 }
 
 .contact {
