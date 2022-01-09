@@ -24,14 +24,14 @@ Live URL: https://dramm1.github.io/my-portfolio/
 - To account for section linking I have included a navigation bar on the right hand side of the header that not only links to addtional sections within the page but also changes based on click for mobile and hover on desktop devices.
 - As a section and navigational feature my contact information is also displayed within the page.
 - I decided to let the site visiter hover or click on my work images as an iteractive experiance and to keep my portfolio on their minds. I also changed the header so it is displyed prior to hover to meet the proper criteria.
-- As a feature, I met the critera of increasing image size and included a change in positioning to the Y axis when the hexagon is hovered over or clicked on. The image then disapears and displayes a link to my work.
+- As a feature, I met the critera of increasing image size and included a change in positioning to the Y axis when the hexagon is hovered over or clicked on. The image then changes opacity and a link to my work is then displayed.
 - I then made sure all otehr instructions were working and funtional within my page. These being mobile responsiveness dependent on view port, semantic structuring, adding alt tags, having as little redundancies as appropriate. 
 - A wireframe is located in the "Additional Images and Information" section below.
 --------------------------------------
 # Things to Note:
 - I do not have original images for all my work as I thought it would be more appropriate to display more skills within my portfolio, so all images that are not mine will have a source below. 
 - Some additional applictions displayed within the portfolio are from a python console and fairly basic. As I build up my portfolio those will be replaced with more ambitiouse projects but funtion as a current bookmark of skill and a placeholder for future work.
-- All contact infor ccan be clicked and if supported will pull up a promt to call, email or redirects to the given URL.
+- All contact info can be clicked and if supported will pull up a promt to call, email or redirects to the given URL.
 
 # How To Use:
 Navigate the website via the navigation options in the top right or by scrolling. You can also access the main page via the navigational header or my name in this case.
