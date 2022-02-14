@@ -1,5 +1,3 @@
-# davids-portfolio
-Live URL: https://dramm1.github.io/davids-portfolio/
 # David-Portfolio
 Live URL: https://dramm1.github.io/my-portfolio/
 
