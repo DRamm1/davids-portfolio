@@ -49,7 +49,7 @@ To help understand sections better I like to leave a space bettween two obvious,
 - Python image: https://github.com/DRamm1/davids-portfolio/blob/main/assets/images/python-image.png
 - CSS image:https://github.com/DRamm1/davids-portfolio/blob/main/assets/images/css-image.png
 - HTML image:https://github.com/DRamm1/davids-portfolio/blob/main/assets/images/html-image.pngobesity-vector-concept-obese-woman-standing-1919328974
-- Winner image:https://github.com/DRamm1/davids-portfolio/blob/main/assets/images/brand.jpg
+- Nutrigainz image:https://github.com/DRamm1/davids-portfolio/blob/main/assets/images/nutrigainz.png
 - Tips image: https://github.com/DRamm1/davids-portfolio/blob/main/assets/images/Tips.jpgselective-focus-calculator-wooden-alphabet-word-2053559588
 - BMI image:https://github.com/DRamm1/davids-portfolio/blob/main/assets/images/bmi.png
  --------------------
