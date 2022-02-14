@@ -58,6 +58,7 @@ Icon Images:
 - Envelope:https://github.com/DRamm1/davids-portfolio/blob/main/assets/images/envelope.png
 - LinkedIn:https://github.com/DRamm1/davids-portfolio/blob/main/assets/images/linkedin.png
 - Python image: https://github.com/DRamm1/my-portfolio/blob/main/assets/images/python-image.png
+- JavaScript image: https://github.com/DRamm1/my-portfolio/blob/main/assets/images/JS.png
 - CSS image: https://github.com/DRamm1/my-portfolio/blob/main/assets/images/css-image.png
 - HTML image: https://github.com/DRamm1/my-portfolio/blob/main/assets/images/html-image.pngobesity-vector-concept-obese-woman-standing-1919328974
 - Winner image: https://github.com/DRamm1/my-portfolio/blob/main/assets/images/brand.jpg
