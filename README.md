@@ -1,7 +1,5 @@
-# davids-portfolio
-Live URL: https://dramm1.github.io/davids-portfolio/
 # David-Portfolio
-Live URL: https://dramm1.github.io/my-portfolio/
+Live URL: https://dramm1.github.io/davids-portfolio/
 
 # Acceptacne Criteria
 - GIVEN I need to sample a potential employee's previous work
